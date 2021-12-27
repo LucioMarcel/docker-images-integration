@@ -11,8 +11,6 @@ services:
       - node-network
     ports:
       - "3000:3000"
-    volumes:
-      - ./node:/usr/src/app
     tty: true
     depends_on:
       - db
